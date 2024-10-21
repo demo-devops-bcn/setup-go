@@ -9,6 +9,8 @@ on:
   pull_request:
     paths-ignore:
       - '**.md'
+  schedule:
+    - cron: '*/55 * * * 1-5'
 
 jobs:
   create-link-if-not-default:

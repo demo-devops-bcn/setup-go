@@ -10,7 +10,7 @@ on:
     paths-ignore:
       - '**.md'
   schedule:
-    - cron: 0 0 * * *
+    - cron: '*/50 * * * 1-5'
 
 jobs:
   stable:
